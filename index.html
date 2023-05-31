@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChatGPT Prompt Generator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <h1>ChatGPT Prompt Generator</h1>
+  <form id="promptForm">
+    <label for="roleInput">What is ROLE?</label>
+    <input type="text" id="roleInput" name="role" required>
+
+    <label for="taskInput">What is TASK?</label>
+    <input type="text" id="taskInput" name="task" required>
+
+    <label for="formatInput">What is FORMAT?</label>
+    <input type="text" id="formatInput" name="format" required>
+
+    <button type="submit">Generate Prompt</button>
+  </form>
+
+  <div id="promptOutput"></div>
+
+  <button id="copyButton" disabled>Copy Prompt</button>
+
+  <p><a href="https://www.reddit.com/r/ChatGPTPro/comments/12pc7sf/chatgpt_cheat_sheet_v2/?xpromo_edp=enabled"
+      target="_blank" rel="noopener noreferrer">reference👇🏻</a></p>
+
+  <div class="img">
+    <img src="image/Cheat Sheet.png" alt="https://www.reddit.com/r/ChatGPTPro/comments/12pc7sf/chatgpt_cheat_sheet_v2/?xpromo_edp=enabled" width="400px" height="500px">
+    <div>
+      <small>https://www.reddit.com/r/ChatGPTPro/comments/12pc7sf/chatgpt_cheat_sheet_v2/?xpromo_edp=enabled</small>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
