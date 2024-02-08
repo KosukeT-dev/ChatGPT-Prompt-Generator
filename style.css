@@ -31,12 +31,18 @@ label {
 }
 
 input[type="text"] {
+  border: dotted;
+  border-radius: 6px;
   width: 100%;
   padding: 8px;
   font-size: 14px;
 }
 
 button {
+  color: #fff;
+  background-color: #222;
+  border: none;
+  border-radius: 6px;
   margin-top: 20px;
   padding: 10px 20px;
   font-size: 16px;
