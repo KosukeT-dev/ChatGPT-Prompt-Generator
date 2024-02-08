@@ -9,7 +9,7 @@ promptForm.addEventListener('submit', function(event) {
   const task = document.getElementById('taskInput').value;
   const format = document.getElementById('formatInput').value;
 
-  const prompt = `Acting as a ${role} perform ${task} in ${format}.`;
+  const prompt = `Acting as a ${role} create a ${task} show as ${format}.`;
   promptOutput.textContent = prompt;
 
   copyButton.disabled = false;
